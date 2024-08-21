@@ -1,3 +1,5 @@
+### NAME : THARUN.D
+### REG.NO :212223240167
 # Led-control-using-Arduino
 
 ## AIM
@@ -58,9 +60,35 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+![Screenshot 2024-08-21 094136](https://github.com/user-attachments/assets/0b8cf883-6065-48c7-942a-9a06ab56f770)
 
 ## PROGRAM
+```
+int button=0;
+void setup() {
+  // put your setup code here, to run once:
+pinMode(11,OUTPUT);
+pinMode(1,INPUT);
+}
+
+void loop() {
+  button=digitalRead(1);
+if(button==HIGH)
+  {
+  digitalWrite(11,HIGH);
+  
+  }
+else
+  {
+    digitalWrite(11,LOW);
+    
+  }
+}
+```
 
 ## OUTPUT
+![Screenshot 2024-08-21 093357](https://github.com/user-attachments/assets/b7d2b2bc-5cf8-400d-bfd3-b6fd1b545575)
+![Screenshot 2024-08-21 093416](https://github.com/user-attachments/assets/dfad5a02-83ab-4afb-a033-0f8b348970b1)
 
 ## RESULT
+successfully designed and implement a system for LED control using an Arduino microcontroller and a push button.
