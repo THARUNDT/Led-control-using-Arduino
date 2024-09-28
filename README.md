@@ -87,7 +87,11 @@ else
 ```
 
 ## OUTPUT
+#### led off:
+
 ![Screenshot 2024-08-21 093357](https://github.com/user-attachments/assets/b7d2b2bc-5cf8-400d-bfd3-b6fd1b545575)
+
+#### led on:
 ![Screenshot 2024-08-21 093416](https://github.com/user-attachments/assets/dfad5a02-83ab-4afb-a033-0f8b348970b1)
 
 ## RESULT
