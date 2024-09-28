@@ -1,6 +1,6 @@
-### NAME : THARUN.D
-### REG.NO :212223240167
-# Led-control-using-Arduino
+### NAME: THARUN D
+### REG.NO:212223240167
+## Experiment-01: Led control using Arduino.
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
